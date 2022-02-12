@@ -1,15 +1,11 @@
 // export function to generate entire page
-module.exports = templateData => {
-    // destructure page data by section
-    const { } = templateData;
-  
+function generateMarkdown(readmeData){
     return `
-    ## ${data.titleInput} 
+    ## ${readmeData.title} 
 
     ### Description
-    *${data.descriptionInput}*
+    *${readmeData.description}*
     
-    \n![${data.license}](${licenseIcon}) 
     
     ### Application Demo
     ![](images/readme-generator.gif)
@@ -24,20 +20,22 @@ module.exports = templateData => {
 
 
     ### Installation
-    Packages required to run this program are: ${data.installationInput}
+    Packages required to run this program are: ${readmeData.installation}
     
     ### Usage
-    How to use this program: ${data.usageInput}
+    How to use this program: ${readmeData.usage}
     
     ### Contributing
-    ${data.contributingInput}
+    ${readmeData.contributing}
 
     ### Tests
-    ${data.testsInput}
+    ${readmeData.tests}
     
     ### Questions
-    GitHub Username: (${data.questionsGithubUserInput}) 
-    \nView the project in GitHub at: ${data.questionsGithubProfileLinkInput}
-    \nIf you have any questions, contact the Casey at ${data.questionsEmailInput}.
+    GitHub Username: (${readmeData.githubUser}) 
+    \nView the project in GitHub at: ${readmeData.profileLink}
+    \nIf you have any questions, contact the Casey at ${readmeData.email}.
     `
-  };
+}
+
+module.exports = generateMarkdown
