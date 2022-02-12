@@ -1,3 +1,5 @@
+# node_modules -This will always be in the gitignore file, to prevent uploading to github.
+
 node_modules
 package-lock.json
 .vscode
