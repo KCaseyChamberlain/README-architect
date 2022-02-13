@@ -33,7 +33,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: "Enter your README's license (Required)",
-      choices: ['MIT', 'AGPL', 'GBL', 'Apache-2.0'],
+      choices: ['MIT', 'AGPL', 'GBL', 'ISC'],
     },
     {
       type: 'input',
