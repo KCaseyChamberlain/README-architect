@@ -2,7 +2,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 var readmeData
 const generateMarkdown = require('./src/markdown-template');
-const generatePage = require('./src/markdown-template');
 const questions = [
     {
       type: 'input',
@@ -34,7 +33,7 @@ const questions = [
       type: 'list',
       name: 'license',
       message: "Enter your README's license (Required)",
-      choices: ['MIT', 'AGPL', 'GBL', 'Apache 2.0'],
+      choices: ['MIT', 'AGPL', 'GBL', 'Apache-2.0'],
     },
     {
       type: 'input',

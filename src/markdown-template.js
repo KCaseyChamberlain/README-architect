@@ -12,7 +12,7 @@ ${readmeData.description}
 This application is licensed under ${readmeData.license}.
 
 ### Application Demo
-![](../images/)
+![](../images/demo.gif)
 
 ### Table of Contents
 - [Description](#description)
@@ -27,7 +27,7 @@ This application is licensed under ${readmeData.license}.
 Packages required to run this program are: ${readmeData.installation}
 
 ### Usage
-How to use this program: ${readmeData.usage}
+${readmeData.usage}
 
 ### Contributing
 ${readmeData.contributing}
@@ -38,7 +38,7 @@ ${readmeData.tests}
 ### Questions
 GitHub Username: (${readmeData.githubUser}) 
 \nView the project in GitHub at: ${readmeData.profileLink}
-\nIf you have any questions, contact the Casey at: ${readmeData.emailAddress}
+\nIf you have any questions, contact Casey at: ${readmeData.emailAddress}
     `
 }
 
