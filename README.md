@@ -5,10 +5,12 @@
 This project dynamically creates a README.md file using the command line and node.js.
 
 ### License
-![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+![Github licence](https://img.shields.io/badge/license-MIT-blue.svg)
+
 This application is licensed under MIT
 
 ### Application Demo
+![](./images/simp.gif)
 
 ### Table of Contents
 - [Description](#description)
@@ -36,4 +38,4 @@ GitHub Username: (kcaseychamberlain)
     
 View the project in GitHub at: https://github.com/KCaseyChamberlain
     
-If you have any questions, contact the Casey at caseygchamberlain@gmail.com.
+If you have any questions, contact the Casey at: caseygchamberlain@gmail.com.

@@ -7,14 +7,15 @@ function generateMarkdown(readmeData){
 ${readmeData.description}
 
 ### License
-![Github licence](http://img.shields.io/badge/license-${readmeData.license}-blue.svg)
-This application is licensed under ${readmeData.license}
+![Github licence](https://img.shields.io/badge/license-${readmeData.license}-blue.svg)
+
+This application is licensed under ${readmeData.license}.
 
 ### Application Demo
-![](images/readme-generator.gif)
+![](../images/)
 
 ### Table of Contents
-- [Description](#discription)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -37,7 +38,7 @@ ${readmeData.tests}
 ### Questions
 GitHub Username: (${readmeData.githubUser}) 
 \nView the project in GitHub at: ${readmeData.profileLink}
-\nIf you have any questions, contact the Casey at ${readmeData.emailAddress}.
+\nIf you have any questions, contact the Casey at: ${readmeData.emailAddress}
     `
 }
 
