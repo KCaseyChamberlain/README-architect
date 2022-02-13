@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 var readmeData
@@ -9,14 +8,14 @@ const questions = [
       type: 'input',
       name: 'title',
       message: 'What is your README title? (Required)',
-    //   validate: titleInput => {
-    //     if (titleInput) {
-    //       return true;
-    //     } else {
-    //       console.log('Please enter your README title!');
-    //       return false;
-    //     }
-    //   }
+      validate: titleInput => {
+        if (titleInput) {
+          return true;
+        } else {
+          console.log('Please enter your README title!');
+          return false;
+        }
+      }
     },
     {
       type: 'input',
@@ -32,19 +31,11 @@ const questions = [
       }
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
       message: "Enter your README's license (Required)",
-      validate: licenseInput => {
-        if (licenseInput) {
-          return true;
-        } else {
-          console.log('Please enter your README license!');
-          return false;
-        }
-      }
+      choices: ['MIT', 'AGPL', 'GBL', 'Apache 2.0'],
     },
-  //   TABLE OF CONTENTS
     {
       type: 'input',
       name: 'installation',
@@ -138,18 +129,18 @@ const questions = [
     },
   ]
 
-// TODO: Create a function to write README file
-    inquirer
+inquirer
+
 .prompt(questions)
 .then(function (answers){
     readmeData = answers
     console.log(readmeData);
-    console.log(readmeData.title)
     var markdown = generateMarkdown(readmeData);
     fs.writeFile("./dist/README.md", markdown, err => {
         if (err) {
             return err
         }
+        console.log('README.md created!')
     })
 })
 
