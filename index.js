@@ -1,7 +1,9 @@
+// inquirer npm
 const inquirer = require('inquirer');
 const fs = require('fs');
 var readmeData
 const generateMarkdown = require('./src/markdown-template');
+
 const questions = [
     {
       type: 'input',
@@ -129,7 +131,7 @@ const questions = [
   ]
 
 inquirer
-
+// creates readme file in dist folder using readmeData and generateMarkdown()
 .prompt(questions)
 .then(function (answers){
     readmeData = answers

@@ -1,4 +1,4 @@
-// export function to generate entire page
+// readme template with dynamic readmeData inputs
 function generateMarkdown(readmeData){
     return `
 ## ${readmeData.title} 

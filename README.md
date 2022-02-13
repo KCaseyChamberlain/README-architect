@@ -10,7 +10,7 @@ This project dynamically creates a README.md file using the command line and nod
 This application is licensed under MIT
 
 ### Application Demo
-![](./images/demo.gif)
+[README Architect Video Demo](https://drive.google.com/file/d/1ppm_xv7E5DCvHvKM5-TyaFp6Isdl75RE/view?usp=sharing)
 
 ### Table of Contents
 - [Description](#description)
@@ -38,4 +38,4 @@ GitHub Username: (kcaseychamberlain)
     
 View the project in GitHub at: https://github.com/KCaseyChamberlain
     
-If you have any questions, contact Casey at: caseygchamberlain@gmail.com.
+If you have any questions, contact Casey at: caseygchamberlain@gmail.com
