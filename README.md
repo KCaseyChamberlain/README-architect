@@ -25,7 +25,7 @@ This application is licensed under MIT
 Packages required to run this program are: Clone this repository, download the npm inquirer.
 
 ### Usage
-How to use this program: Type "node inded.js" into the command line after cloning the repo. From their you will be asked a series of questions. Once all the questions have been answered, a README.md file will be created.
+How to use this program: Type "node index.js" into the command line after cloning the repo. From there you will be asked a series of questions. Once all the questions have been answered, a README.md file will be created.
 
 ### Contributing
 No contributions at this time.
@@ -36,6 +36,6 @@ N/A
 ### Questions
 GitHub Username: (kcaseychamberlain) 
     
-View the project in GitHub at: https://github.com/KCaseyChamberlain
+View the project in GitHub at: https://github.com/KCaseyChamberlain/README-architect
     
 If you have any questions, contact Casey at: caseygchamberlain@gmail.com
